@@ -1,0 +1,118 @@
+<!DOCTYPEhtml>
+<html>
+	<head>
+	
+		<meta name= "description" content=""/>
+		<meta name="keywords" content="Katherine, Avalos"/>
+		<meta http-equiv="Content-Type" content="text/html,charset=UTF-8"/> 
+		<title>Ecuador</title>
+	<link  rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="960_12_col.css">
+		<link rel="stylesheet" type="text/css" href="layout.css">
+		<link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+		
+		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+		
+	</head>
+	
+	<body>
+	
+	<div class="container_12">
+	
+	
+	<div class="grid_12 headline">
+	
+		<div class="title"> <p>ECUADOR</p> </div>
+	</div>
+	
+	<div class="grid_12 talltwo">
+	
+	<div class="ecuaintro ">
+	
+	Ecuador is the smallest country in the Andes Mountains and one of the most fascinating tourist attractions in South America. Thanks to the diversity of the native cultures, the well-kept colonial architecture, the volcanic scenery and the lush forests, this country has more points of interest within its borders than those of a country twice its size. Ecuador ranks as one of the richest countries in the world when it comes to its variety of animals and flora. Ecuador is considered one of the safest and most comfortable countries for travelers. Ecuador is located on the equator and gives the opportunity to tour Ecuador on most days of the year, and anywhere in the country: the Andes, the rain forests, the beaches and the Galapagos.
+	
+	</div>
+	
+	<div class="ecuaintroimage">
+	<img src="images/locations/ecuador.png"  width="450" height="400">
+	</div>
+	
+	</div>
+
+
+	<div class="grid_3 medium330"> 
+	
+	<div class=" region ">
+	
+	<a href="galapagos.html">
+	<img src="images/main/ga.png"  width="170" height="170">
+	</div>
+	</a>
+	
+	
+	<div class=" regiontitle"> GALAPAGOS</div>
+	<div class="  description"> Visit the enchanted islands</div>
+	
+	</div>
+	
+	
+	
+	
+	<div class="grid_3 medium330"> 
+	
+		<div class=" region ">
+	
+		<a href="cost.html">
+		<img src="images/main/co.png"  width="170" height="170">
+		</a>
+		</div>
+	
+	
+	<div class=" regiontitle"> COAST</div>
+	<div class=" description"> Enjoy of warm beaches</div>
+	
+	</div>
+	
+	
+	
+	
+	<div class="grid_3 medium330"> 
+	
+		<div class=" region ">
+		<a href="andes.html">
+			<img src="images/main/an.png"  width="170" height="170">
+		</a>
+		</div>
+	
+		<div class=" regiontitle"> ANDES</div>
+		<div class=" description"> Climb some mountains</div>
+	
+	</div>
+	
+	<div class="grid_3 medium330"> 
+	
+	<div class=" region ">
+	<a href="amazon.html">
+	<img src="images/main/am.png"  width="170" height="170">
+	</a>
+	</div>
+	
+	<div class=" regiontitle"> AMAZON</div>
+	<div class=" description"> Have an encounter with nature</div>
+	
+	</div>
+	
+	</div>
+	</body>
+
+	<!-- option one 
+	The ideology of this website is to create a very clean layout but at the same give some examples of work as soon as you enter.
+	-->
+
+
+
+
+
+</html>

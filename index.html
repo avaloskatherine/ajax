@@ -1,0 +1,151 @@
+	<!DOCTYPEhtml>
+	<html>
+	<head>
+		
+		<meta name= "description" content=""/>
+		<meta name="keywords" content="Ecuador"/>
+		<meta http-equiv="Content-Type" content="text/html,charset=UTF-8"/> 
+		<title>Ecuador</title>
+
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/skeleton.css">
+		<link rel="stylesheet" href="css/index.css">		
+
+		<link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+
+		<link href='https://fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
+
+		<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'>
+		</script>
+
+	</head>
+
+	<body>
+
+		<div class="container">
+
+
+			<div class="row" >
+				<div class="row twelve columns">
+					<h1>ECUADOR</h1>
+				</div>
+			</div>
+
+		</div><!--end row -->
+
+
+		<div class="row" > 
+			<div id="lasregiones">
+
+				<a href="page1.html">
+					<div class="three columns"> 
+
+						<div class=" region ">
+
+							
+							<img src="images/main/ga.png"  width="170" height="170">
+							
+						</div>
+
+					</div>
+				</a>
+
+
+				<a href="page2.html">
+					<div class="three columns"> 
+
+						<div class=" region ">
+
+							
+							<img src="images/main/co.png"  width="170" height="170">
+							
+						</div>
+					</div>
+				</a>
+
+
+				<a href="page3.html">
+					<div class="three columns"> 
+
+						<div class=" region ">
+							
+							<img src="images/main/an.png"  width="170" height="170">
+							
+						</div>
+
+					</div>
+				</a>
+
+				<a href="page4.html">
+					<div class="three columns"> 
+
+						<div class=" region ">
+							
+							<img src="images/main/am.png"  width="170" height="170">
+							
+						</div>
+
+					</div>
+				</a>
+			</div>
+			
+
+			<div class="row" >
+				<div class="row twelve columns">
+					<div id="region-description"></div>
+				</div>
+			</div>
+			
+			
+
+
+		</div><!--end row-->
+
+
+		<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'>
+		</script>
+		<script>
+
+		$(document).ready(function(e) {
+
+			var $regiones = $('#lasregiones');
+
+			$('#lasregiones').find('a').on('click', function(e){
+				e.preventDefault();
+
+				var $desc = $('#region-description')
+
+				switch($(this).attr('href')){
+					case 'page1.html' :
+					$desc.load('galapagos.html')
+					break;
+					case 'page2.html' :
+					$desc.load('costa.html')
+					break;
+					case 'page3.html' :
+					$desc.load('andes.html')
+					break;
+					case 'page4.html' :
+					$desc.load('amazon.html')
+					break;
+				}
+
+			});
+
+
+		});
+		</script>
+
+	</body>
+
+
+
+
+
+
+
+	</html>

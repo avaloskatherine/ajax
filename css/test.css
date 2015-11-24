@@ -1,0 +1,199 @@
+.red {background-color:pink;}
+.blue {background-color: lightblue;}
+.green {background-color:lightgreen;}
+
+
+.back{ height:40px; 
+	width:80px; 
+	margin: 5px 5px 5px 5px; 
+	float:left;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	font-size: 100%;
+}
+
+.menu{ height:40px; 
+	width:110px; 
+	margin: 5px auto; 
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	/*background-color: red;*/
+	}
+
+p { text-align: left }
+
+/*p.blocktext {
+	
+    margin-left: auto;
+    margin-right: auto;
+   }*/
+   
+/*body {
+    background-image: url("images/others/background3.jpg");
+}  */ 
+   
+.headline{
+background-image: url("images/main/ec.jpg"); 
+}
+
+h1 {font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 250%;
+	}
+
+h3 {font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	}
+	
+p {font-family: 'Lato', sans-serif;}
+
+.title{	
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 130%;
+}
+   
+/*.ecuaintro{
+	background-image: url(images/locations/galapagos.png); 
+	background-repeat: no-repeat; 
+	background-size: 100%;
+	display: inline-block;
+	width: 100%;
+	float: right;
+	font-family: 'Lato', sans-serif;
+	font-size: 100%;
+	text-align:justify;
+	padding:5px
+}*/
+
+
+.contenido{
+/*	background-image: url(images/locations/galapagos.png);
+	background-repeat: no-repeat;
+	background-size: 100%;*/
+	display:inline-block;
+	width: 100%;
+	/*min-height: 350px;*/
+	padding: 5px;
+	font-family: 'Lato', sans-serif;
+	text-align:justify;
+	text-shadow: 0 0 3px #FFFFFF;
+
+	/*background-color: red;*/
+
+}
+#ubicacion{
+	float:left;
+	width: 20%;
+	width:350px;
+	/* display: none;*/
+/*background-color: cyan;*/
+}
+
+
+@media ( min-width: 600px){
+	#ubicacion{ 
+		display: inline-block;
+		width:450px;
+	}
+	.contenido{ 
+		width: 40%;
+		background-image:none;
+		text-shadow: none;
+		float: right;
+	}
+	.menu{float:right;}
+
+}
+
+.img-responsive{display: block;
+max-width: 100%;
+height: auto;}
+
+	
+.ecuaintroimage{   
+	width: 450px;
+	height:400px;
+	display: inline;
+	float: right;
+	margin: 15px 0px 10px 5px;
+}
+
+.region{
+	width: 170px;
+	height:170px;
+	margin: 15px auto 5px auto;
+	
+	}
+
+.regiontitle{
+	width: 100%;
+	height:auto;
+	margin: 15px auto 5px auto;
+	text-align: center;
+	padding:4px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-weight:700;
+	font-size: 110%
+	}
+
+
+.description{
+	width: 100%;
+	height:auto;
+	margin: 0px auto 10px auto;
+	text-align: center;
+	padding:2px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	
+	}
+
+.end{
+	margin: 0px auto 15px auto;
+	}
+
+
+/*.center-vertical{
+	position: relative;
+  top: 50%;
+  transform: translateY (-50%);
+}*/
+
+.visitborder{
+border-style: dashed;
+width: 1;
+border-bottom: 0px ;
+border-right: 0px ;
+border-left: 0px ;
+padding-top: 10px
+	}
+
+/*links*/
+
+a:link {
+    color: #000000;
+    text-decoration:none;
+}
+
+a:visited {
+    color: #0000FF;
+    text-decoration:underline;
+}
+
+a:hover {
+    color: #0000FF;
+}
+
+
+a:active {
+    color:  #000000;
+}
+
+
+
